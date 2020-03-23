@@ -1,0 +1,23 @@
+
+.Element {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.Estyle {
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 32rem;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    height: 2.4rem;
+}
+
+.Edescription {
+    padding: 0.6rem;
+    margin: 0.6rem;
+    width: 32rem;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    height: 7.2rem;
+}

@@ -1,38 +1,63 @@
-.App {
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Flex-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Flex-main {
+  display: flex;
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Flex-h1  {
+  background-color: #fafafa;
+  /* border: 1px solid #959b94; */
+  margin: 5px;
+  /* padding: 0 20px; */
+  -moz-box-shadow:    2px 2px 3px 4px rgb(242, 240, 240);
+  -webkit-box-shadow: 2px 2px 3px 4px rgb(242, 240, 240);
+  box-shadow:         2px 2px 3px 4px rgb(242, 240, 240);
+}
+
+.Flex-item, .Flex-add {
+  background-color: #fafafa;
+  /* padding: 20px; */
+  /* border: 1px solid #959b94; */
+  margin: 5px;
+  -moz-box-shadow:    2px 2px 3px 4px rgb(242, 240, 240);
+  -webkit-box-shadow: 2px 2px 3px 4px rgb(242, 240, 240);
+  box-shadow:         2px 2px 3px 4px rgb(242, 240, 240);
+}
+
+.Flex-nav, .Flex-add {
+  flex: 1 1;
+}
+
+.Flex-article, .Flex-h1 {
+  flex: 4 4;
+}
+
+.addBtn {
+  padding: 10px 20px;
+  flex-basis: 6rem;
+  background-color: rgba(23, 119, 87, 0.705);
+  color: #fafafa;
+  border: 1px solid #959b94;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  background-color: rgba(37, 151, 113, 0.705);
+}
+
+.marginTop10 {
+  margin-top: 10px;
 }
